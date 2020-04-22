@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="ri8-XX-Wy0">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Profile-->
+        <scene sceneID="ZVF-zW-l8k">
+            <objects>
+                <viewController id="ri8-XX-Wy0" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="cGx-Bt-etf">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hi, my name is Ken" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rbb-gb-vbI">
+                                <rect key="frame" x="16" y="428" width="382" height="40"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="33"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="28Q-tw-7MS" firstAttribute="trailing" secondItem="rbb-gb-vbI" secondAttribute="trailing" constant="16" id="AuD-3J-GgP"/>
+                            <constraint firstItem="rbb-gb-vbI" firstAttribute="centerX" secondItem="cGx-Bt-etf" secondAttribute="centerX" id="ddA-2W-aGl"/>
+                            <constraint firstItem="rbb-gb-vbI" firstAttribute="centerY" secondItem="cGx-Bt-etf" secondAttribute="centerY" id="ga8-dq-o4c"/>
+                            <constraint firstItem="rbb-gb-vbI" firstAttribute="leading" secondItem="28Q-tw-7MS" secondAttribute="leading" constant="16" id="n7S-oV-8VL"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="28Q-tw-7MS"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Profile" image="person" catalog="system" id="Knb-dj-2fX"/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vzl-pm-Niw" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="152" y="151"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="person" catalog="system" width="128" height="117"/>
+    </resources>
+</document>

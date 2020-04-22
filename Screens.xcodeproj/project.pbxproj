@@ -13,6 +13,10 @@
 		615683942450A85A00F6B1CF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 615683922450A85A00F6B1CF /* Main.storyboard */; };
 		615683962450A85D00F6B1CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 615683952450A85D00F6B1CF /* Assets.xcassets */; };
 		615683992450A85D00F6B1CF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 615683972450A85D00F6B1CF /* LaunchScreen.storyboard */; };
+		615683A12450AEF600F6B1CF /* NumberedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 615683A02450AEF600F6B1CF /* NumberedViewController.swift */; };
+		615683A32450AF0600F6B1CF /* RedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 615683A22450AF0600F6B1CF /* RedViewController.swift */; };
+		615683A62450BDDD00F6B1CF /* Colors.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 615683A42450BDDD00F6B1CF /* Colors.storyboard */; };
+		615683A82450C19800F6B1CF /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 615683A72450C19800F6B1CF /* Profile.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		615683952450A85D00F6B1CF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		615683982450A85D00F6B1CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6156839A2450A85D00F6B1CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		615683A02450AEF600F6B1CF /* NumberedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberedViewController.swift; sourceTree = "<group>"; };
+		615683A22450AF0600F6B1CF /* RedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedViewController.swift; sourceTree = "<group>"; };
+		615683A52450BDDD00F6B1CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Screens/Base.lproj/Colors.storyboard; sourceTree = "<group>"; };
+		615683A72450C19800F6B1CF /* Profile.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Profile.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,9 +68,13 @@
 				6156838E2450A85A00F6B1CF /* SceneDelegate.swift */,
 				615683902450A85A00F6B1CF /* ViewController.swift */,
 				615683922450A85A00F6B1CF /* Main.storyboard */,
+				615683A42450BDDD00F6B1CF /* Colors.storyboard */,
 				615683952450A85D00F6B1CF /* Assets.xcassets */,
 				615683972450A85D00F6B1CF /* LaunchScreen.storyboard */,
 				6156839A2450A85D00F6B1CF /* Info.plist */,
+				615683A02450AEF600F6B1CF /* NumberedViewController.swift */,
+				615683A22450AF0600F6B1CF /* RedViewController.swift */,
+				615683A72450C19800F6B1CF /* Profile.storyboard */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
@@ -127,6 +139,8 @@
 			files = (
 				615683992450A85D00F6B1CF /* LaunchScreen.storyboard in Resources */,
 				615683962450A85D00F6B1CF /* Assets.xcassets in Resources */,
+				615683A82450C19800F6B1CF /* Profile.storyboard in Resources */,
+				615683A62450BDDD00F6B1CF /* Colors.storyboard in Resources */,
 				615683942450A85A00F6B1CF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,6 +152,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				615683A32450AF0600F6B1CF /* RedViewController.swift in Sources */,
+				615683A12450AEF600F6B1CF /* NumberedViewController.swift in Sources */,
 				615683912450A85A00F6B1CF /* ViewController.swift in Sources */,
 				6156838D2450A85A00F6B1CF /* AppDelegate.swift in Sources */,
 				6156838F2450A85A00F6B1CF /* SceneDelegate.swift in Sources */,
@@ -161,6 +177,14 @@
 				615683982450A85D00F6B1CF /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		615683A42450BDDD00F6B1CF /* Colors.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				615683A52450BDDD00F6B1CF /* Base */,
+			);
+			name = Colors.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
